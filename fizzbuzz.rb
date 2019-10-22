@@ -12,6 +12,10 @@ def fizzbuzz(int)
     if int % 15 == 0 # if the number int is divisible by 3
     "FizzBuzz" # Go FizzBuzz
  end
+ def fizzbuzz(int)
+     if int % !4 == 0 # if the number int is divisible by 3
+     "FizzBuzz" # Go FizzBuzz
+  end
 end
 
 fizzbuzz(3) # You should see a return of "Fizz"
