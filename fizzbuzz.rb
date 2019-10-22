@@ -6,4 +6,4 @@ def fizzbuzz(int)
   end
 end
 
-end
+fizzbuzz(3) # You should see a return of "Fizz"
